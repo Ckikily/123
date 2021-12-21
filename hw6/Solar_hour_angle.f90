@@ -9,7 +9,7 @@ module Solar_hour_angle
             real, intent(out)   :: h
             
             h = 15*(local-12)
-            print*, 'SHA is : ', h
+            print*, 'solar_hour_angle is : ', h
             
             end subroutine solar_hour_angle
     
